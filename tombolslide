@@ -1,0 +1,26 @@
+window.onload=function(){
+var buttonClick1 = document.getElementsByClassName('w3-button w3-display-left w3-black');
+
+    for (var i=0; i< buttonClick1.length; i++){
+    buttonClick1[i].onclick= function() {
+        this.classList.toggle("active")
+plusDivs(-1)
+
+    };
+
+
+}
+
+var buttonClick2 = document.getElementsByClassName('w3-button w3-display-right w3-black');
+
+    for (var i=0; i< buttonClick2.length; i++){
+    buttonClick2[i].onclick= function() {
+        this.classList.toggle("active")
+plusDivs(1)
+
+    };
+
+
+}
+
+}//]]>
